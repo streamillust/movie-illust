@@ -7,6 +7,7 @@
 //
 
 #import "MovieillustAppDelegate.h"
+#import "STTableViewController.h"
 
 @implementation MovieillustAppDelegate
 
@@ -15,6 +16,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    _tableViewController = [[STTableViewController alloc] init];
+    [self.window addSubview:_tableViewController.view];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -60,6 +64,7 @@
 
 - (void)dealloc
 {
+    [_tableViewController release];
     [_window release];
     [super dealloc];
 }

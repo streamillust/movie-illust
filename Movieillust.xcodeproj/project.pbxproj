@@ -24,6 +24,10 @@
 		F0AF7ECF13F0317800C5A13F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0AF7ECD13F0317800C5A13F /* InfoPlist.strings */; };
 		F0AF7ED113F0317800C5A13F /* MovieillustTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F0AF7ED013F0317800C5A13F /* MovieillustTests.h */; };
 		F0AF7ED313F0317800C5A13F /* MovieillustTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AF7ED213F0317800C5A13F /* MovieillustTests.m */; };
+		F0AF7EE313F031D600C5A13F /* STTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AF7EE013F031D600C5A13F /* STTableViewController.m */; };
+		F0AF7EE413F031D600C5A13F /* STTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0AF7EE213F031D600C5A13F /* STTableViewController.xib */; };
+		F0AF7EE813F0361300C5A13F /* STFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AF7EE613F0361300C5A13F /* STFileController.m */; };
+		F0AF7EEA13F040A000C5A13F /* prefer-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0AF7EE913F040A000C5A13F /* prefer-info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,24 +45,30 @@
 		F0AF7E9D13F0317700C5A13F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F0AF7E9F13F0317700C5A13F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F0AF7EA113F0317700C5A13F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F0AF7EA513F0317700C5A13F /* Movieillust-Info.plist */ = {isa = PBXFileReference; path = "Movieillust-Info.plist"; sourceTree = "<group>"; };
+		F0AF7EA513F0317700C5A13F /* Movieillust-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Movieillust-Info.plist"; sourceTree = "<group>"; };
 		F0AF7EA713F0317700C5A13F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F0AF7EA913F0317800C5A13F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F0AF7EAB13F0317800C5A13F /* Movieillust-Prefix.pch */ = {isa = PBXFileReference; path = "Movieillust-Prefix.pch"; sourceTree = "<group>"; };
-		F0AF7EAC13F0317800C5A13F /* MovieillustAppDelegate.h */ = {isa = PBXFileReference; path = MovieillustAppDelegate.h; sourceTree = "<group>"; };
+		F0AF7EAB13F0317800C5A13F /* Movieillust-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Movieillust-Prefix.pch"; sourceTree = "<group>"; };
+		F0AF7EAC13F0317800C5A13F /* MovieillustAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieillustAppDelegate.h; sourceTree = "<group>"; };
 		F0AF7EAD13F0317800C5A13F /* MovieillustAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieillustAppDelegate.m; sourceTree = "<group>"; };
-		F0AF7EB013F0317800C5A13F /* MovieillustAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = MovieillustAppDelegate_iPhone.h; path = iPhone/MovieillustAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		F0AF7EB013F0317800C5A13F /* MovieillustAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MovieillustAppDelegate_iPhone.h; path = iPhone/MovieillustAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		F0AF7EB113F0317800C5A13F /* MovieillustAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MovieillustAppDelegate_iPhone.m; path = iPhone/MovieillustAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		F0AF7EB413F0317800C5A13F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		F0AF7EB713F0317800C5A13F /* MovieillustAppDelegate_iPad.h */ = {isa = PBXFileReference; name = MovieillustAppDelegate_iPad.h; path = iPad/MovieillustAppDelegate_iPad.h; sourceTree = "<group>"; };
+		F0AF7EB713F0317800C5A13F /* MovieillustAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MovieillustAppDelegate_iPad.h; path = iPad/MovieillustAppDelegate_iPad.h; sourceTree = "<group>"; };
 		F0AF7EB813F0317800C5A13F /* MovieillustAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MovieillustAppDelegate_iPad.m; path = iPad/MovieillustAppDelegate_iPad.m; sourceTree = "<group>"; };
 		F0AF7EBB13F0317800C5A13F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
 		F0AF7EC213F0317800C5A13F /* MovieillustTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieillustTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0AF7EC313F0317800C5A13F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F0AF7ECC13F0317800C5A13F /* MovieillustTests-Info.plist */ = {isa = PBXFileReference; path = "MovieillustTests-Info.plist"; sourceTree = "<group>"; };
+		F0AF7ECC13F0317800C5A13F /* MovieillustTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MovieillustTests-Info.plist"; sourceTree = "<group>"; };
 		F0AF7ECE13F0317800C5A13F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F0AF7ED013F0317800C5A13F /* MovieillustTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieillustTests.h; sourceTree = "<group>"; };
 		F0AF7ED213F0317800C5A13F /* MovieillustTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieillustTests.m; sourceTree = "<group>"; };
+		F0AF7EE013F031D600C5A13F /* STTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableViewController.m; sourceTree = "<group>"; };
+		F0AF7EE113F031D600C5A13F /* STTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableViewController.h; sourceTree = "<group>"; };
+		F0AF7EE213F031D600C5A13F /* STTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STTableViewController.xib; sourceTree = "<group>"; };
+		F0AF7EE613F0361300C5A13F /* STFileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STFileController.m; sourceTree = "<group>"; };
+		F0AF7EE713F0361300C5A13F /* STFileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STFileController.h; sourceTree = "<group>"; };
+		F0AF7EE913F040A000C5A13F /* prefer-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "prefer-info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +129,11 @@
 		F0AF7EA313F0317700C5A13F /* Movieillust */ = {
 			isa = PBXGroup;
 			children = (
+				F0AF7EE713F0361300C5A13F /* STFileController.h */,
+				F0AF7EE613F0361300C5A13F /* STFileController.m */,
+				F0AF7EE113F031D600C5A13F /* STTableViewController.h */,
+				F0AF7EE013F031D600C5A13F /* STTableViewController.m */,
+				F0AF7EE213F031D600C5A13F /* STTableViewController.xib */,
 				F0AF7EAC13F0317800C5A13F /* MovieillustAppDelegate.h */,
 				F0AF7EAD13F0317800C5A13F /* MovieillustAppDelegate.m */,
 				F0AF7EAF13F0317800C5A13F /* iPhone */,
@@ -131,6 +146,7 @@
 		F0AF7EA413F0317700C5A13F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F0AF7EE913F040A000C5A13F /* prefer-info.plist */,
 				F0AF7EA513F0317700C5A13F /* Movieillust-Info.plist */,
 				F0AF7EA613F0317700C5A13F /* InfoPlist.strings */,
 				F0AF7EA913F0317800C5A13F /* main.m */,
@@ -251,6 +267,8 @@
 				F0AF7EA813F0317700C5A13F /* InfoPlist.strings in Resources */,
 				F0AF7EB513F0317800C5A13F /* MainWindow_iPhone.xib in Resources */,
 				F0AF7EBC13F0317800C5A13F /* MainWindow_iPad.xib in Resources */,
+				F0AF7EE413F031D600C5A13F /* STTableViewController.xib in Resources */,
+				F0AF7EEA13F040A000C5A13F /* prefer-info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +308,8 @@
 				F0AF7EAE13F0317800C5A13F /* MovieillustAppDelegate.m in Sources */,
 				F0AF7EB213F0317800C5A13F /* MovieillustAppDelegate_iPhone.m in Sources */,
 				F0AF7EB913F0317800C5A13F /* MovieillustAppDelegate_iPad.m in Sources */,
+				F0AF7EE313F031D600C5A13F /* STTableViewController.m in Sources */,
+				F0AF7EE813F0361300C5A13F /* STFileController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +487,7 @@
 				F0AF7ED813F0317800C5A13F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0AF7ED913F0317800C5A13F /* Build configuration list for PBXNativeTarget "MovieillustTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +496,7 @@
 				F0AF7EDB13F0317800C5A13F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

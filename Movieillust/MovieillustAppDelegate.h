@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MovieillustAppDelegate : NSObject <UIApplicationDelegate>
+@class STTableViewController;
+
+@interface MovieillustAppDelegate : NSObject <UIApplicationDelegate> {
+    STTableViewController *_tableViewController;
+}
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
