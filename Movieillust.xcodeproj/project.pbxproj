@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0AF7E9E13F0317700C5A13F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AF7E9D13F0317700C5A13F /* UIKit.framework */; };
+		F0AF7EA013F0317700C5A13F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AF7E9F13F0317700C5A13F /* Foundation.framework */; };
+		F0AF7EA213F0317700C5A13F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AF7EA113F0317700C5A13F /* CoreGraphics.framework */; };
+		F0AF7EA813F0317700C5A13F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0AF7EA613F0317700C5A13F /* InfoPlist.strings */; };
+		F0AF7EAA13F0317800C5A13F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AF7EA913F0317800C5A13F /* main.m */; };
+		F0AF7EAE13F0317800C5A13F /* MovieillustAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AF7EAD13F0317800C5A13F /* MovieillustAppDelegate.m */; };
+		F0AF7EB213F0317800C5A13F /* MovieillustAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AF7EB113F0317800C5A13F /* MovieillustAppDelegate_iPhone.m */; };
+		F0AF7EB513F0317800C5A13F /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0AF7EB313F0317800C5A13F /* MainWindow_iPhone.xib */; };
+		F0AF7EB913F0317800C5A13F /* MovieillustAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AF7EB813F0317800C5A13F /* MovieillustAppDelegate_iPad.m */; };
+		F0AF7EBC13F0317800C5A13F /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0AF7EBA13F0317800C5A13F /* MainWindow_iPad.xib */; };
+		F0AF7EC413F0317800C5A13F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AF7EC313F0317800C5A13F /* SenTestingKit.framework */; };
+		F0AF7EC513F0317800C5A13F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AF7E9D13F0317700C5A13F /* UIKit.framework */; };
+		F0AF7EC613F0317800C5A13F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AF7E9F13F0317700C5A13F /* Foundation.framework */; };
+		F0AF7EC713F0317800C5A13F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AF7EA113F0317700C5A13F /* CoreGraphics.framework */; };
+		F0AF7ECF13F0317800C5A13F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0AF7ECD13F0317800C5A13F /* InfoPlist.strings */; };
+		F0AF7ED113F0317800C5A13F /* MovieillustTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F0AF7ED013F0317800C5A13F /* MovieillustTests.h */; };
+		F0AF7ED313F0317800C5A13F /* MovieillustTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AF7ED213F0317800C5A13F /* MovieillustTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0AF7EC813F0317800C5A13F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0AF7E9013F0317700C5A13F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0AF7E9813F0317700C5A13F;
+			remoteInfo = Movieillust;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0AF7E9913F0317700C5A13F /* Movieillust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movieillust.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0AF7E9D13F0317700C5A13F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F0AF7E9F13F0317700C5A13F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0AF7EA113F0317700C5A13F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0AF7EA513F0317700C5A13F /* Movieillust-Info.plist */ = {isa = PBXFileReference; path = "Movieillust-Info.plist"; sourceTree = "<group>"; };
+		F0AF7EA713F0317700C5A13F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0AF7EA913F0317800C5A13F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0AF7EAB13F0317800C5A13F /* Movieillust-Prefix.pch */ = {isa = PBXFileReference; path = "Movieillust-Prefix.pch"; sourceTree = "<group>"; };
+		F0AF7EAC13F0317800C5A13F /* MovieillustAppDelegate.h */ = {isa = PBXFileReference; path = MovieillustAppDelegate.h; sourceTree = "<group>"; };
+		F0AF7EAD13F0317800C5A13F /* MovieillustAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieillustAppDelegate.m; sourceTree = "<group>"; };
+		F0AF7EB013F0317800C5A13F /* MovieillustAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = MovieillustAppDelegate_iPhone.h; path = iPhone/MovieillustAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		F0AF7EB113F0317800C5A13F /* MovieillustAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MovieillustAppDelegate_iPhone.m; path = iPhone/MovieillustAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		F0AF7EB413F0317800C5A13F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		F0AF7EB713F0317800C5A13F /* MovieillustAppDelegate_iPad.h */ = {isa = PBXFileReference; name = MovieillustAppDelegate_iPad.h; path = iPad/MovieillustAppDelegate_iPad.h; sourceTree = "<group>"; };
+		F0AF7EB813F0317800C5A13F /* MovieillustAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MovieillustAppDelegate_iPad.m; path = iPad/MovieillustAppDelegate_iPad.m; sourceTree = "<group>"; };
+		F0AF7EBB13F0317800C5A13F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		F0AF7EC213F0317800C5A13F /* MovieillustTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieillustTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0AF7EC313F0317800C5A13F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F0AF7ECC13F0317800C5A13F /* MovieillustTests-Info.plist */ = {isa = PBXFileReference; path = "MovieillustTests-Info.plist"; sourceTree = "<group>"; };
+		F0AF7ECE13F0317800C5A13F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0AF7ED013F0317800C5A13F /* MovieillustTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieillustTests.h; sourceTree = "<group>"; };
+		F0AF7ED213F0317800C5A13F /* MovieillustTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieillustTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0AF7E9613F0317700C5A13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AF7E9E13F0317700C5A13F /* UIKit.framework in Frameworks */,
+				F0AF7EA013F0317700C5A13F /* Foundation.framework in Frameworks */,
+				F0AF7EA213F0317700C5A13F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AF7EBE13F0317800C5A13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AF7EC413F0317800C5A13F /* SenTestingKit.framework in Frameworks */,
+				F0AF7EC513F0317800C5A13F /* UIKit.framework in Frameworks */,
+				F0AF7EC613F0317800C5A13F /* Foundation.framework in Frameworks */,
+				F0AF7EC713F0317800C5A13F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0AF7E8E13F0317700C5A13F = {
+			isa = PBXGroup;
+			children = (
+				F0AF7EA313F0317700C5A13F /* Movieillust */,
+				F0AF7ECA13F0317800C5A13F /* MovieillustTests */,
+				F0AF7E9C13F0317700C5A13F /* Frameworks */,
+				F0AF7E9A13F0317700C5A13F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0AF7E9A13F0317700C5A13F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0AF7E9913F0317700C5A13F /* Movieillust.app */,
+				F0AF7EC213F0317800C5A13F /* MovieillustTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0AF7E9C13F0317700C5A13F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0AF7E9D13F0317700C5A13F /* UIKit.framework */,
+				F0AF7E9F13F0317700C5A13F /* Foundation.framework */,
+				F0AF7EA113F0317700C5A13F /* CoreGraphics.framework */,
+				F0AF7EC313F0317800C5A13F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0AF7EA313F0317700C5A13F /* Movieillust */ = {
+			isa = PBXGroup;
+			children = (
+				F0AF7EAC13F0317800C5A13F /* MovieillustAppDelegate.h */,
+				F0AF7EAD13F0317800C5A13F /* MovieillustAppDelegate.m */,
+				F0AF7EAF13F0317800C5A13F /* iPhone */,
+				F0AF7EB613F0317800C5A13F /* iPad */,
+				F0AF7EA413F0317700C5A13F /* Supporting Files */,
+			);
+			path = Movieillust;
+			sourceTree = "<group>";
+		};
+		F0AF7EA413F0317700C5A13F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0AF7EA513F0317700C5A13F /* Movieillust-Info.plist */,
+				F0AF7EA613F0317700C5A13F /* InfoPlist.strings */,
+				F0AF7EA913F0317800C5A13F /* main.m */,
+				F0AF7EAB13F0317800C5A13F /* Movieillust-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0AF7EAF13F0317800C5A13F /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				F0AF7EB013F0317800C5A13F /* MovieillustAppDelegate_iPhone.h */,
+				F0AF7EB113F0317800C5A13F /* MovieillustAppDelegate_iPhone.m */,
+				F0AF7EB313F0317800C5A13F /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		F0AF7EB613F0317800C5A13F /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				F0AF7EB713F0317800C5A13F /* MovieillustAppDelegate_iPad.h */,
+				F0AF7EB813F0317800C5A13F /* MovieillustAppDelegate_iPad.m */,
+				F0AF7EBA13F0317800C5A13F /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		F0AF7ECA13F0317800C5A13F /* MovieillustTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0AF7ED013F0317800C5A13F /* MovieillustTests.h */,
+				F0AF7ED213F0317800C5A13F /* MovieillustTests.m */,
+				F0AF7ECB13F0317800C5A13F /* Supporting Files */,
+			);
+			path = MovieillustTests;
+			sourceTree = "<group>";
+		};
+		F0AF7ECB13F0317800C5A13F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0AF7ECC13F0317800C5A13F /* MovieillustTests-Info.plist */,
+				F0AF7ECD13F0317800C5A13F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0AF7E9813F0317700C5A13F /* Movieillust */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0AF7ED613F0317800C5A13F /* Build configuration list for PBXNativeTarget "Movieillust" */;
+			buildPhases = (
+				F0AF7E9513F0317700C5A13F /* Sources */,
+				F0AF7E9613F0317700C5A13F /* Frameworks */,
+				F0AF7E9713F0317700C5A13F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Movieillust;
+			productName = Movieillust;
+			productReference = F0AF7E9913F0317700C5A13F /* Movieillust.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0AF7EC113F0317800C5A13F /* MovieillustTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0AF7ED913F0317800C5A13F /* Build configuration list for PBXNativeTarget "MovieillustTests" */;
+			buildPhases = (
+				F0AF7EBD13F0317800C5A13F /* Sources */,
+				F0AF7EBE13F0317800C5A13F /* Frameworks */,
+				F0AF7EBF13F0317800C5A13F /* Resources */,
+				F0AF7EC013F0317800C5A13F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0AF7EC913F0317800C5A13F /* PBXTargetDependency */,
+			);
+			name = MovieillustTests;
+			productName = MovieillustTests;
+			productReference = F0AF7EC213F0317800C5A13F /* MovieillustTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0AF7E9013F0317700C5A13F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = NET;
+			};
+			buildConfigurationList = F0AF7E9313F0317700C5A13F /* Build configuration list for PBXProject "Movieillust" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F0AF7E8E13F0317700C5A13F;
+			productRefGroup = F0AF7E9A13F0317700C5A13F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0AF7E9813F0317700C5A13F /* Movieillust */,
+				F0AF7EC113F0317800C5A13F /* MovieillustTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0AF7E9713F0317700C5A13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AF7EA813F0317700C5A13F /* InfoPlist.strings in Resources */,
+				F0AF7EB513F0317800C5A13F /* MainWindow_iPhone.xib in Resources */,
+				F0AF7EBC13F0317800C5A13F /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AF7EBF13F0317800C5A13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AF7ECF13F0317800C5A13F /* InfoPlist.strings in Resources */,
+				F0AF7ED113F0317800C5A13F /* MovieillustTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F0AF7EC013F0317800C5A13F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0AF7E9513F0317700C5A13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AF7EAA13F0317800C5A13F /* main.m in Sources */,
+				F0AF7EAE13F0317800C5A13F /* MovieillustAppDelegate.m in Sources */,
+				F0AF7EB213F0317800C5A13F /* MovieillustAppDelegate_iPhone.m in Sources */,
+				F0AF7EB913F0317800C5A13F /* MovieillustAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AF7EBD13F0317800C5A13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AF7ED313F0317800C5A13F /* MovieillustTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0AF7EC913F0317800C5A13F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0AF7E9813F0317700C5A13F /* Movieillust */;
+			targetProxy = F0AF7EC813F0317800C5A13F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0AF7EA613F0317700C5A13F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0AF7EA713F0317700C5A13F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F0AF7EB313F0317800C5A13F /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0AF7EB413F0317800C5A13F /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F0AF7EBA13F0317800C5A13F /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0AF7EBB13F0317800C5A13F /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		F0AF7ECD13F0317800C5A13F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0AF7ECE13F0317800C5A13F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0AF7ED413F0317800C5A13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0AF7ED513F0317800C5A13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0AF7ED713F0317800C5A13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Movieillust/Movieillust-Prefix.pch";
+				INFOPLIST_FILE = "Movieillust/Movieillust-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F0AF7ED813F0317800C5A13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Movieillust/Movieillust-Prefix.pch";
+				INFOPLIST_FILE = "Movieillust/Movieillust-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F0AF7EDA13F0317800C5A13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Movieillust.app/Movieillust";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Movieillust/Movieillust-Prefix.pch";
+				INFOPLIST_FILE = "MovieillustTests/MovieillustTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F0AF7EDB13F0317800C5A13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Movieillust.app/Movieillust";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Movieillust/Movieillust-Prefix.pch";
+				INFOPLIST_FILE = "MovieillustTests/MovieillustTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0AF7E9313F0317700C5A13F /* Build configuration list for PBXProject "Movieillust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0AF7ED413F0317800C5A13F /* Debug */,
+				F0AF7ED513F0317800C5A13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0AF7ED613F0317800C5A13F /* Build configuration list for PBXNativeTarget "Movieillust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0AF7ED713F0317800C5A13F /* Debug */,
+				F0AF7ED813F0317800C5A13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0AF7ED913F0317800C5A13F /* Build configuration list for PBXNativeTarget "MovieillustTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0AF7EDA13F0317800C5A13F /* Debug */,
+				F0AF7EDB13F0317800C5A13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0AF7E9013F0317700C5A13F /* Project object */;
+}
